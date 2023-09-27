@@ -24,8 +24,9 @@
     }
 
     .personagem-selecionado .personagem-grande{
-        width: 300px;
-        height: 300px;
+        width: 350px;
+        height: 350px;
+        margin-bottom:20px;
     }
 
     .personagem-selecionado .descricao-personagem{
@@ -34,7 +35,7 @@
         margin: 20px auto;
     }
     #clients{
-        margin-top: 30% ;
+        margin-top: 25% ;
     }
 
 }

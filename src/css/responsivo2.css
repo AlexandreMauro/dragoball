@@ -1,14 +1,18 @@
 @media (max-width: 700px){
     .cabecalho .logo{
         max-width: 50px;
-        margin-bottom:10px;
     }
+     
+    .cabecalho img {
+    margin-botton:10px;
+
+}
 
     .selecao-de-personagens{
         flex-direction: column-reverse;
         max-width: 430px;
         margin: 0 auto;
-        margin-top: 60%;
+        margin-top: 40%;
     }
 
     .selecao-de-personagens .personagens{
