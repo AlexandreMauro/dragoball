@@ -3,7 +3,9 @@
         max-width: 50px;
     }
      
-
+.cabecalho img{
+ margin-botton:20px;
+}
 
     .selecao-de-personagens{
         flex-direction: column-reverse;
