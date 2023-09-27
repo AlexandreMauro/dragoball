@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Dragon ball Budokai Tenkaichi 4 - Semana do programador</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Kavoon&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="./src/css/reset.css">
+        <link rel="stylesheet" href="./src/css/Style.css">
+        <link rel="stylesheet" href="./src/css/responsivo.css">
+        <link rel="stylesheet" href="./src/css/responsivo2.css">
+        <link rel="icon" type="image/png" href="./src/imagens/icon.png">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img src="./src/imagens/logo.png" alt="logo">
+    </header>
+    <video autoplay loop muted class="video-background">
+      <source src="./src/videos/dragon ball fundo.mp4" type="video/mp4">
+    </video>
+    <main class="selecao-de-personagens">
+      <section class="personagens">
+
+        
+        <h1 class="titulo">Selecione um personagem</h1>
+        <ul class="lista-de-personagens">
+            <li class="personagem selecionado" id="goku" data-name="Goku" data-description="Goku, o herói de Dragon Ball Z, é um Saiyajin com habilidades especiais, incluindo o poderoso 'Kamehameha', e busca constantemente se tornar mais forte para proteger seus entes queridos e enfrentar desafios épicos.">
+              <img
+                src="./src/imagens/goku-card.jpg"
+                alt="Personagem goku"
+              />
+          <li class="personagem" id="gohan" data-name="Gohan" data-description="Gohan, filho de Goku em Dragon Ball Z, cresce e desenvolve seu poder oculto. Ele se transforma em Super Saiyajin 2 e derrota Cell na saga Cell, salvando o mundo. Após a batalha, Gohan retorna à vida normal, mas nunca mais alcança o mesmo nível de poder.">
+            <img
+              src="./src/imagens/gohan-card.jpg"
+              alt="Personagem gohan"
+            />
+          </li>
+
+          <li class="personagem" id="vegeta" data-name="Vegeta" data-description="Príncipe dos Saiyajins, rival de Goku. Inicialmente um vilão, mas se redime e se torna um aliado valente, buscando constantemente superar Goku.">
+            <img
+              src="./src/imagens/vegeta-card.jpg"
+              alt="Personagem vegeta"
+            />
+          </li>
+
+          <li class="personagem" id="piccolo" data-name="Piccolo" data-description=" Namekuseijin e ex-inimigo de Goku. Desenvolve um forte vínculo com Gohan e se torna um protetor e mentor do jovem. Possui habilidades de luta poderosas e se sacrifica para proteger seus amigos.">
+            <img
+              src="./src/imagens/piccolo-card.jpg"
+              alt="Personagem  piccolo"
+            />
+          </li>
+
+          <li class="personagem" id="bills"data-name="Bills" data-description="O Deus da Destruição do Universo 7. É um ser extremamente poderoso, temido por todos. No entanto, também é capaz de amizade e se torna um aliado ocasional de Goku e seus amigos.">
+            <img
+              src="./src/imagens/bills-card.jpg"
+              alt="Personagem bills"
+            />
+          </li>
+
+          <li class="personagem" id="cell" data-name="Cell" data-description="Um ser criado a partir das células dos guerreiros mais poderosos. Cell busca alcançar sua forma perfeita e se tornar o ser mais forte do universo. É derrotado por Gohan na saga Cell.">
+            <img
+              src="./src/imagens/cell-card.jpg"
+              alt="Personagem cell"
+            />
+          </li>
+
+          <li class="personagem" id="freeza"data-name="Freeza" data-description="Um tirano intergaláctico com poderes de transformação. Ele é um dos vilões mais icônicos da série e líder do exército Galáctico. Possui uma rivalidade intensa com Goku e é derrotado por ele.">
+            <img
+              src="./src/imagens/freeza-card.jpg"
+              alt="Personagem freeza"
+            />
+          </li>
+
+          <li class="personagem" id="black"data-name="Goku Black" data-description=" Uma versão maligna de Goku de um futuro alternativo. Ele se une a Zamasu, um Kaioh do Universo 10, e causa devastação. É um inimigo poderoso, mas acaba sendo derrotado por Goku e seus aliados.">
+            <img
+              src="./src/imagens/black-card.jpg"
+              alt="Personagem Magneto"
+            />
+          </li>
+        </ul>
+      </section>
+      <section class="personagem-selecionado">
+        <img
+          class="personagem-grande"
+          src="./src/imagens/goku-card.png"
+          alt="Personagem Selecionado"
+        />
+
+        <div class="informacoes-personagem">
+          <h2 class="nome-personagem" id="nome-personagem">Goku</h2>
+          <p class="descricao-personagem" id="descricao-personagem">
+Goku, o herói de Dragon Ball Z, é um Saiyajin com habilidades especiais, incluindo o poderoso 'Kamehameha', e busca constantemente se tornar mais forte para proteger seus entes queridos e enfrentar desafios épicos.
+          </p>
+        </div>
+      </section>
+    
+    </main>
+ <footer id="clients">
+  <div class="headline">Em breve para </div>
+  <div id="clients-containers">
+      <img src="./src/imagens/playstation.svg" class="cliente">
+      <img src="./src/imagens/xbox.svg" alt="" class="cliente">
+      <img src="./src/imagens/desktop.svg" alt="" class="cliente">
+     
+  </div>
+      <h2 id="finalizacao">Coppy right 2023- All right<br>Designer by Alexandre Mauro</h2>
+     </footer>
+   <script src="./src/js/index.js"></script>
+  </body>
+</html>
